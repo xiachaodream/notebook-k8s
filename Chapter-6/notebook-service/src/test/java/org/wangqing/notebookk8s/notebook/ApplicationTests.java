@@ -64,8 +64,9 @@ public class ApplicationTests {
 		Assert.assertEquals(TEST_EMAIL, newNotebook.getEmail());
 	}
 
-	@Test
+	/*@Test
 	public void listPageChromeUItest() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","D:\\soft\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
@@ -79,6 +80,6 @@ public class ApplicationTests {
 		} finally {
 			driver.quit();
 		}
-	}
+	}*/
 
 }
